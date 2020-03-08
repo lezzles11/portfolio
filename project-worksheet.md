@@ -18,15 +18,18 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-
-
+A portfolio website that will first have a navigation bar that will have my name on the left, and on the right it will have "My Work", "About Me", and "Contact Me". These three will disappear on mobile and instead it will be a hamburger icon. Below the navigation, it will have a header, "My Work", and I will display my work in cards. Below "My Work" section, it will be my "About Me" section. It will have a picture and a couple of sentences about myself. Below the "About Me" section, it will be the "Contact Me section where I will put my email, my phone number, Linkedin profile, github, and a contact form. Lastly I will have a footer. 
+Ideas were from these three people.
+http://helloaileen.com/
+http://andrewhollingworth.com/
+https://jessicalandzberg.github.io/Unit_1_Project/#intro
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+https://docs.google.com/spreadsheets/d/1ixqFlM630A-B5PjTOZnzpYaLlByty8JerBWjGrzChvU/edit#gid=0
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+https://res.cloudinary.com/drxoihdbb/image/upload/v1583705359/Pictures/IMG_1285_wdlpfl.heic - mobile view and desktop view
 
 [https://www.figma.com/](https://www.figma.com/)
 [https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
@@ -40,6 +43,7 @@ Now draw a vertical line on the y axis.  The top of this line should have `High`
 Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
 
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
+https://res.cloudinary.com/drxoihdbb/image/upload/v1583708018/Pictures/IMG_1286_pybq0w.heic
 
 ### MVP/PostMVP - 5min
 
@@ -49,12 +53,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Pull data using google json api
 - Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Allow user to fill in contact form
+- Ability to click on sections on the navigation bar
+- Have projects display in a card and the ability to click on them
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Sections properly styled
 
 ## Functional Components
 
@@ -64,9 +69,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Form | H | 3hrs|  |  |
+| Working with API | H | 3hrs| | |
+| Working on navigation | H | 3hrs| | |
+| HTML | H | 2hr | | |
+| CSS | H | 2hrs | | |
+| Projects displayed properly| H | 3hrs| | |
+| Links/icons | H | 2hrs | | |
+| Total | H | 18hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
