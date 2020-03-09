@@ -72,8 +72,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Form | H | 3hrs|  |  |
 | Working with API | H | 3hrs| | |
 | Working on navigation | H | 3hrs| | |
-| HTML | H | 2hr | | |
-| CSS | H | 2hrs | | |
+| Responsiveness| H | 2hrs | | |
 | Projects displayed properly| H | 3hrs| | |
 | Links/icons | H | 2hrs | | |
 | Total | H | 18hrs|  |  |
