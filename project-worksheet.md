@@ -75,7 +75,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Responsiveness| H | 2hrs | | |
 | Projects displayed properly| H | 3hrs| | |
 | Links/icons | H | 2hrs | | |
-| Total | H | 18hrs|  |  |
+| Total | H | 16hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
