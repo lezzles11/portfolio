@@ -59,7 +59,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP 
 
-- Sections properly styled
+
 
 ## Functional Components
 
