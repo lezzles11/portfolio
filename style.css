@@ -79,6 +79,16 @@ h2 {
     text-align: center;
 }
 
+.MyWork {
+    border-bottom: 1px solid #bcb7b7;
+}
+
+.AboutMe > p {
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .ContactMe > p {
     text-align: center;
 }
@@ -91,6 +101,17 @@ h2 {
 .ContactMe > ul > li{
     display: inline;
     margin: 0 5px;
+}
+
+.footer {
+    background: #284270;
+
+}
+
+.footer > p {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
 @media (min-width: 1024px){
