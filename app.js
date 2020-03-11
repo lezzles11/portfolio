@@ -37,11 +37,13 @@ function app(projects) {
     $('.ItemContainer').css({'width': '300px', 'height': '400px', 
     'margin-bottom': '50px', 'border': '1px solid #bcb7b7', 'text-align': 'center', 'background': '#bcb7b7'});
 
-    $('img').css({'width': '90%', 'height': '80%', 'object-fit': 'cover', 'margin': '0 auto'});
+    $('img').css({'width': '100%', 'height': '80%', 'object-fit': 'cover', 'margin': '0 auto'});
 
     $('.MyWork').css({'display': 'flex', 'flex-wrap': 'wrap', 'justify-content': 'space-around', 
     'align-content': 'space-between', 'position': 'relative', 'z-index': '1'})
 
-    $('h4').css({'margin-bottom': '10px'})
+    $('h4').css({'margin-bottom': '10px', 'font-family': 'Assistant, sans-serif'})
+
+    
     
 }
