@@ -43,7 +43,6 @@ function app(projects) {
     'align-content': 'space-between', 'position': 'relative', 'z-index': '1'})
 
     $('h4').css({'margin-bottom': '10px', 'font-family': 'Assistant, sans-serif'})
-
-    
-    
+   
 }
+
