@@ -26,7 +26,7 @@ function app(projects) {
     const myProjects = () => {
         for (let i = 0; i < projects.length; i ++) {
             let $a = $('<a>').attr('href', projects[i].url).text('Link');
-            let $img = $('<img>').attr('src', projects[i].image);
+            let $img = $('<img>').attr('class', 'projects').attr('src', projects[i].image);
             let $h4 = $('<h4>').attr('class', 'title').text(projects[i].title);
             let $div = $('<div>').attr('class', 'ItemContainer').append($h4).append($img).append($a)
             $('.MyWork').append($div);
@@ -35,9 +35,9 @@ function app(projects) {
     myProjects();
 
     $('.ItemContainer').css({'width': '300px', 'height': '400px', 
-    'margin-bottom': '50px', 'border': '1px solid #bcb7b7', 'text-align': 'center', 'background': '#bcb7b7'});
+    'margin-bottom': '50px', 'border-radius': '5%', 'text-align': 'center', 'background': '#bcb7b7'});
 
-    $('img').css({'width': '100%', 'height': '80%', 'object-fit': 'cover', 'margin': '0 auto'});
+    $('.projects').css({'width': '100%', 'height': '80%', 'object-fit': 'cover', 'margin': '0 auto'});
 
     $('.MyWork').css({'display': 'flex', 'flex-wrap': 'wrap', 'justify-content': 'space-around', 
     'align-content': 'space-between', 'position': 'relative', 'z-index': '1'})
