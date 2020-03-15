@@ -103,7 +103,7 @@ function app(projects) {
     }
     myProjects();
  
- This is what I did to render the data onto my portfolio site. I thought I was going to get stuck on this part of my project.
+ This is what I did to render the data onto my portfolio site. I thought I was going spend more time on this part of my project.
 ```
 
 ## Issues and Resolutions
@@ -119,5 +119,6 @@ function app(projects) {
 **RESOLUTION**: There was a forward slash on $a and $h4.
 
 **ERROR**: The hamburger menu was going behind "My Work" section so it couldn't be seen.
+
 **RESOLUTION**: Used position and z-index properties to fix.
 
