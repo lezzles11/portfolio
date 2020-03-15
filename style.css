@@ -1,6 +1,4 @@
 body {
-    /* width: 100%;
-    height: 100%; */
     margin: 5px 5px 0 5px;
     background: #edeef0;
 }
@@ -20,7 +18,7 @@ h3 {
     flex: 1;
     color: white;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 1.5em;
     font-weight: normal;
     margin: 0;
     padding-left: 20px;
@@ -42,9 +40,9 @@ h3 {
 
 #links > a {
     text-decoration: none;
-    font-family: 'Fajalla One', sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     background: #bcb7b7;
-    font-size: 18px;
+    font-size: 1.3em;
     color: white;
     margin: 0;
     line-height: 70px;
@@ -57,12 +55,8 @@ h3 {
 label {
     margin: 0 40px 0 0;
     font-size: 26px;
-    /* line-height: 70px; */
-    /* display: block; */
     cursor: pointer;
-    /* width: 26px; */
     float: right;
-    /* display: none; */
 }
 
 #toggle {
@@ -74,6 +68,9 @@ label {
 
 h2 {
     text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    font-weight: lighter;
 }
 
 .MyWork {
@@ -81,19 +78,29 @@ h2 {
 }
 .AboutMe {
     text-align: center;
+    border-bottom: 1px solid #bcb7b7;
 }
 .AboutMe > p {
     max-width: 70%;
+    padding-top: 1.5em;
+    padding-bottom: 50px;
     margin: 0 auto;
+    line-height: 1.3em;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 1.1em;
 }
 
 .AboutMe > img {
     width: 50%;
     border-radius: 50%;
 }
-
+.ContactMe {
+    margin-bottom: 5em;
+}
 .ContactMe > p {
     text-align: center;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 1.2em;
 }
 
 .ContactMe > ul {
@@ -105,8 +112,13 @@ h2 {
     display: inline;
     margin: 0 5px;
 }
+.contact {
+    font-weight: bold;
+    color: #284270;
+}
 .message {
     text-align: center;
+    margin-bottom: 20%;
 }
 
 .form-control {
@@ -163,7 +175,6 @@ form > .submit:hover {
     #links > a {
         flex: 1;
         border-style: none;
-        font-size: 20px;
         background: none;
     }
     #links > a:hover {
@@ -172,4 +183,36 @@ form > .submit:hover {
     .AboutMe > img {
         width: 30%;
     }
+    .Grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr) auto;
+        grid-template-areas:
+            "about about"
+            "contact message"
+            "footer footer"
+    }
+    .AboutMe {
+        grid-area: about;
+    }
+    .ContactMe {
+        grid-area: contact;
+        border-radius: 10%;
+        background: #bcb7b7;
+        height: 240px;
+    }
+    .message {
+        grid-area: message;
+        border-radius: 10%;
+        background: #bcb7b7;
+        height: 360px;
+    }
+    .footer {
+        grid-area: footer;
+    }
+    form > .submit:hover {
+        background: black;
+    }
+
 }

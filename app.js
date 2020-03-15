@@ -42,7 +42,7 @@ function app(projects) {
     $('.MyWork').css({'display': 'flex', 'flex-wrap': 'wrap', 'justify-content': 'space-around', 
     'align-content': 'space-between', 'position': 'relative', 'z-index': '1'})
 
-    $('h4').css({'margin-bottom': '10px', 'font-family': 'Assistant, sans-serif'})
+    $('h4').css({'margin-bottom': '10px', 'font-family': 'Cormorant Garamond, sans-serif', 'letter-spacing': '.3px'})
    
 }
 
